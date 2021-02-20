@@ -4,7 +4,7 @@
   <p>Edit <code>components/one.vue</code> to test hot module replacement.</p>
 </template>
 
-<script>
+<script lang="ts">
   import { computed } from 'vue'
   import { useStore } from 'vuex'
   import { key } from '../store'

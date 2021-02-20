@@ -4,7 +4,7 @@
   <el-button @click="toOne"> {{ count }} </el-button>
 </template>
 
-<script>
+<script lang="ts">
   import HelloWorld from '../components/HelloWorld.vue'
   // import { useRouter } from 'vue-router'
   import { defineComponent, computed } from 'vue'
